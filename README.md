@@ -6,7 +6,7 @@ Pytorch implementation of NestConvNeXt-IQA paper "No-Reference LWIR Image Qualit
 
 ## Datasets
 
-In this work, two LWIR datasets are used: LWIR-IQA and TIIQAD, which represent synthetically and authentically distorted IQA databases. Two evaluation setups are considered, corresponding to authentic and synthetic distortions. For the synthetic setup, both global and per-distortion-type evaluations are performed, including white noise, blurring, non-uniformity, JPEG, and JPEG2000 compression.
+In this work, two LWIR datasets are used: `LWIR-IQA` and `TIIQAD`, which represent synthetically and authentically distorted IQA databases. Two evaluation setups are considered, corresponding to authentic and synthetic distortions. For the synthetic setup, both global and per-distortion-type evaluations are performed, including white noise, blurring, non-uniformity, JPEG, and JPEG2000 compression.
 
 1. The [LWIR-IQA](https://doi.org/10.2478/jee-2022-0011) image dataset used during the current study is available in the GitHub Repository: https://github.com/azedomar/LWIR_IQA_dataset. 
 2. The thermal dataset [TIIQAD](https://doi.org/10.1109/ICIP51287.2024.10648145) employed in this study is also publicly available on GitHub: https://github.com/cheunglaihip/TIIQAD.
@@ -86,8 +86,20 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 ### Testing on a single image
 
 - Open the file `RunTest_predict_one_image.ipynb` 
-- Set the path to the trained model. You may also use the provided pretrained models for LWIR-IQA and TIIQAD.
+- Set the path to the trained model. You may also use the provided pretrained models for `LWIR-IQA` and `TIIQAD`.
 - Set the path to the image to be predicted.
 - Run the notebook.
+
+## Results
+
+Some of our results are provided in the Results folder.
+
+This folder contains spider diagrams summarizing the performance comparison under distortion-specific analysis. These diagrams are presented for:
+- all IQA algorithms,
+- full-reference (FR) algorithms,
+- traditional no-reference (TR-NR) algorithms,
+- deep learning-based no-reference (DL-NR) algorithms.
+- 
+In addition, the Examples file includes sample images from the `LWIR-IQA` and `TIIQAD` datasets. For each example, the corresponding subjective score (MOS) and the objective score predicted by `NestConvNeXt-IQA` are provided.
 
 
