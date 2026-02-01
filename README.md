@@ -19,52 +19,53 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 1. `VIF:`
    [H. R. Sheikh and A. C. Bovik, “Image information and visual quality,” IEEE Trans. Image Process. vol. 15, no 2, p. 430-444, 2006, doi: 10.1109/TIP.2005.859378](https://doi.org/10.1109/TIP.2005.859378)
 
-2. IW SSIM
-3. IW PSNR
-   Z. Wang and Q. Li, “Information content weighting for perceptual image quality assessment,” IEEE Trans. Image Process. vol. 20, no. 5, pp. 1185–1198, 2011, doi: 10.1109/TIP.2010.2092435.
+2. `IW SSIM:`
+   [Z. Wang and Q. Li, “Information content weighting for perceptual image quality assessment,” IEEE Trans. Image Process. vol. 20, no. 5, pp. 1185–1198, 2011, doi: 10.1109/TIP.2010.2092435.](https://doi.org/10.1109/TIP.2010.2092435)
+4. `IW PSNR:`
+   [Z. Wang and Q. Li, “Information content weighting for perceptual image quality assessment,” IEEE Trans. Image Process. vol. 20, no. 5, pp. 1185–1198, 2011, doi: 10.1109/TIP.2010.2092435.]
+(https://doi.org/10.1109/TIP.2010.2092435)
 
+5. `GMSD:`
+   [W. Xue, L. Zhang, X. Mou, and A. C. Bovik, “Gradient magnitude similarity deviation: A highly efficient perceptual image quality index,” IEEE Trans. Image Process. vol. 23, no. 2, pp. 684–695, 2014, doi: 10.1109/TIP.2013.2293423.](https://doi.org/10.1109/TIP.2013.2293423)
 
-4. GMSD
-   W. Xue, L. Zhang, X. Mou, and A. C. Bovik, “Gradient magnitude similarity deviation: A highly efficient perceptual image quality index,” IEEE Trans. Image Process. vol. 23, no. 2, pp. 684–695, 2014, doi: 10.1109/TIP.2013.2293423.
-
-5. FSIM
-   L. Zhang, L. Zhang, X. Mou, and D. Zhang, “FSIM: A feature similarity index for image quality assessment,” IEEE Trans. Image Process. vol. 20, no. 8, pp. 2378–2386, 2011, doi: 10.1109/TIP.2011.2109730.
+6. `FSIM:`
+   [L. Zhang, L. Zhang, X. Mou, and D. Zhang, “FSIM: A feature similarity index for image quality assessment,” IEEE Trans. Image Process. vol. 20, no. 8, pp. 2378–2386, 2011, doi: 10.1109/TIP.2011.2109730.](https://doi.org/10.1109/TIP.2011.2109730)
 
 ### Deep learning full-reference (DL-FR):
-6. SCIQA 
-   W. Xian et al., “A style transfer-based fast image quality assessment method for image sensors,” Sensors, vol. 25, no. 16, art. no. 5121, Aug. 2025, doi: 10.3390/s25165121.
+6. `SCIQA:` 
+   [W. Xian et al., “A style transfer-based fast image quality assessment method for image sensors,” Sensors, vol. 25, no. 16, art. no. 5121, Aug. 2025, doi: 10.3390/s25165121.](https://doi.org/10.3390/s25165121)
 
 ### Traditional no-reference (TR-NR) metrics:
-7. NIQE
-   A. Mittal, R. Soundararajan, and A. C. Bovik, “Making a ‘completely blind’ image quality analyzer,” IEEE Signal Process. Lett. vol. 20, no. 3, pp. 209–212, 2013, doi: 10.1109/LSP.2012.2227726.
+7. `NIQE:`
+   [A. Mittal, R. Soundararajan, and A. C. Bovik, “Making a ‘completely blind’ image quality analyzer,” IEEE Signal Process. Lett. vol. 20, no. 3, pp. 209–212, 2013, doi: 10.1109/LSP.2012.2227726.](https://doi.org/10.1109/LSP.2012.2227726)
 
-8. BRISQUE
-   A. Mittal, A. K. Moorthy, and A. C. Bovik, “No-reference image quality assessment in the spatial domain,” IEEE Trans. Image Process. vol. 21, no. 12, pp. 4695–4708, 2012, doi: 10.1109/TIP.2012.2214050.
+8. `BRISQUE:`
+   [A. Mittal, A. K. Moorthy, and A. C. Bovik, “No-reference image quality assessment in the spatial domain,” IEEE Trans. Image Process. vol. 21, no. 12, pp. 4695–4708, 2012, doi: 10.1109/TIP.2012.2214050.](https://doi.org/10.1109/TIP.2012.2214050)
 
 9. OG-IQA
-   L. Liu, Y. Hua, Q. Zhao, H. Huang, and A. C. Bovik, “Blind image quality assessment by relative gradient statistics and adaboosting neural network,” Signal Process. Image Commun. vol. 40, pp. 1–15, 2016, doi: 10.1016/j.image.2015.10.005.
+   [L. Liu, Y. Hua, Q. Zhao, H. Huang, and A. C. Bovik, “Blind image quality assessment by relative gradient statistics and adaboosting neural network,” Signal Process. Image Commun. vol. 40, pp. 1–15, 2016, doi: 10.1016/j.image.2015.10.005.](https://doi.org/10.1016/j.image.2015.10.005)
 
 10. GM-LOG
-    W. Xue, X. Mou, L. Zhang, A. C. Bovik, and X. Feng, “Blind image quality assessment using joint statistics of gradient magnitude and Laplacian features,” IEEE Trans. Image Process. vol. 23, no. 11, pp. 4850–4862, 2014, doi: 10.1109/TIP.2014.2355716.
+    [W. Xue, X. Mou, L. Zhang, A. C. Bovik, and X. Feng, “Blind image quality assessment using joint statistics of gradient magnitude and Laplacian features,” IEEE Trans. Image Process. vol. 23, no. 11, pp. 4850–4862, 2014, doi: 10.1109/TIP.2014.2355716.](https://doi.org/10.1109/TIP.2014.2355716)
 
 11. GWH-GLBP
-    Q. Li, W. Lin, and Y. Fang, “No-reference quality assessment for multiply-distorted images in gradient domain,” IEEE Signal Process. Lett. vol. 23, no. 4, pp. 541–545, Apr. 2016, doi: 10.1109/LSP.2016.2537321.
+    [Q. Li, W. Lin, and Y. Fang, “No-reference quality assessment for multiply-distorted images in gradient domain,” IEEE Signal Process. Lett. vol. 23, no. 4, pp. 541–545, Apr. 2016, doi: 10.1109/LSP.2016.2537321.](https://doi.org/10.1109/LSP.2016.2537321)
 
 ### Deep learning no-reference (DL-NR):
-12. HyperNet
-    S. Su et al., “Blindly assess image quality in the wild guided by a self-adaptive hyper network,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2020, pp. 3664–3673. doi: 10.1109/CVPR42600.2020.00372.
+12. `HyperNet:`
+    [S. Su et al., “Blindly assess image quality in the wild guided by a self-adaptive hyper network,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2020, pp. 3664–3673. doi: 10.1109/CVPR42600.2020.00372.](https://doi.org/10.1109/CVPR42600.2020.00372)
 
-13. TReS
-    S. A. Golestaneh, S. Dadsetan, and K. M. Kitani, “No-reference image quality assessment via transformers, relative ranking, and Self-consistency,” in Proc. IEEE/CVF Winter Conf. Appl. Comput. Vis. (WACV), Waikoloa, HI, USA, 2022, pp. 3989–3999. doi: 10.1109/WACV51458.2022.00404.
+13. `TReS:`
+    [S. A. Golestaneh, S. Dadsetan, and K. M. Kitani, “No-reference image quality assessment via transformers, relative ranking, and Self-consistency,” in Proc. IEEE/CVF Winter Conf. Appl. Comput. Vis. (WACV), Waikoloa, HI, USA, 2022, pp. 3989–3999. doi: 10.1109/WACV51458.2022.00404.](https://doi.org/10.1109/WACV51458.2022.00404)
 
-14. DACNN
-    Z. Pan et al., “DACNN: Blind image quality assessment via a distortion-aware convolutional neural network,” IEEE Trans. Circuits Syst. Video Technol. vol. 32, no. 11, pp. 7518–7531, 2022, doi: 10.1109/TCSVT.2022.3188991.
+14. `DACNN:`
+    [Z. Pan et al., “DACNN: Blind image quality assessment via a distortion-aware convolutional neural network,” IEEE Trans. Circuits Syst. Video Technol. vol. 32, no. 11, pp. 7518–7531, 2022, doi: 10.1109/TCSVT.2022.3188991.](https://doi.org/10.1109/TCSVT.2022.3188991)
 
-15. VCRNet
-    Z. Pan, F. Yuan, J. Lei, Y. Fang, X. Shao, and S. Kwong, “VCRNet: Visual compensation restoration network for no-reference image quality assessment,” IEEE Trans. Image Process. vol. 31, pp. 1613–1627, 2022, doi: 10.1109/TIP.2022.3144892.
+15. `VCRNet:`
+    [Z. Pan, F. Yuan, J. Lei, Y. Fang, X. Shao, and S. Kwong, “VCRNet: Visual compensation restoration network for no-reference image quality assessment,” IEEE Trans. Image Process. vol. 31, pp. 1613–1627, 2022, doi: 10.1109/TIP.2022.3144892.](https://doi.org/10.1109/TIP.2022.3144892)
 
-16. SaTQA
-    J. Shi, P. Gao, and J. Qin, “Transformer-based no-reference image quality assessment via supervised contrastive learning,” Proc. AAAI Conf. Artif. Intell. vol. 38, no. 5, pp. 4829–4837, 2024, doi: 10.1609/aaai.v38i5.28285.
+16. `SaTQA:`
+    [J. Shi, P. Gao, and J. Qin, “Transformer-based no-reference image quality assessment via supervised contrastive learning,” Proc. AAAI Conf. Artif. Intell. vol. 38, no. 5, pp. 4829–4837, 2024, doi: 10.1609/aaai.v38i5.28285.](https://doi.org/10.1609/aaai.v38i5.28285)
 
 
 ## Usage Instructions
