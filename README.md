@@ -99,7 +99,7 @@ This folder contains spider diagrams summarizing the performance comparison unde
 - full-reference (FR) algorithms,
 - traditional no-reference (TR-NR) algorithms,
 - deep learning-based no-reference (DL-NR) algorithms.
-- 
+   
 In addition, the Examples file includes sample images from the `LWIR-IQA` and `TIIQAD` datasets. For each example, the corresponding subjective score (MOS) and the objective score predicted by `NestConvNeXt-IQA` are provided.
 
 
