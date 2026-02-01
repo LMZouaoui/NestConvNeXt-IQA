@@ -92,7 +92,7 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 
 ## Results
 
-Some of our results are provided in the Results folder.
+Some of our results are provided in the `./Results/` folder.
 
 This folder contains spider diagrams summarizing the performance comparison under distortion-specific analysis. These diagrams are presented for:
 - all IQA algorithms,
@@ -100,6 +100,6 @@ This folder contains spider diagrams summarizing the performance comparison unde
 - traditional no-reference (TR-NR) algorithms,
 - deep learning-based no-reference (DL-NR) algorithms.
    
-In addition, the Examples file includes sample images from the `LWIR-IQA` and `TIIQAD` datasets. For each example, the corresponding subjective score (MOS) and the objective score predicted by `NestConvNeXt-IQA` are provided.
+In addition, the `Examples.docx` file includes sample images from the `LWIR-IQA` and `TIIQAD` datasets. For each example, the corresponding subjective score (MOS) and the objective score predicted by `NestConvNeXt-IQA` are provided.
 
 
