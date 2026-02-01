@@ -30,7 +30,7 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 6. `FSIM:`
    [L. Zhang, L. Zhang, X. Mou, and D. Zhang, “FSIM: A feature similarity index for image quality assessment,” IEEE Trans. Image Process. vol. 20, no. 8, pp. 2378–2386, 2011, doi: 10.1109/TIP.2011.2109730.](https://doi.org/10.1109/TIP.2011.2109730)
 
-### Deep learning full-reference (DL-FR):
+### Deep learning full-reference (DL-FR) metric:
 6. `SCIQA:` 
    [W. Xian et al., “A style transfer-based fast image quality assessment method for image sensors,” Sensors, vol. 25, no. 16, art. no. 5121, Aug. 2025, doi: 10.3390/s25165121.](https://doi.org/10.3390/s25165121)
 
@@ -50,7 +50,7 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 11. `GWH-GLBP`
     [Q. Li, W. Lin, and Y. Fang, “No-reference quality assessment for multiply-distorted images in gradient domain,” IEEE Signal Process. Lett. vol. 23, no. 4, pp. 541–545, Apr. 2016, doi: 10.1109/LSP.2016.2537321.](https://doi.org/10.1109/LSP.2016.2537321)
 
-### Deep learning no-reference (DL-NR):
+### Deep learning no-reference (DL-NR) metrics:
 12. `HyperNet:`
     [S. Su et al., “Blindly assess image quality in the wild guided by a self-adaptive hyper network,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2020, pp. 3664–3673. doi: 10.1109/CVPR42600.2020.00372.](https://doi.org/10.1109/CVPR42600.2020.00372)
 
@@ -74,10 +74,10 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 - Open the file: `RunTrain.ipynb`
 
 #### For the LWIR-IQA dataset, run:
-%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_LWIR-IQA_dataset/ --dataset lwir_iqa --version 1 --seed 2022
+```%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_LWIR-IQA_dataset/ --dataset lwir_iqa --version 1 --seed 2022```
 
 ##### For the TIIQAD dataset, run:
-%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_TIIQAD_dataset/ --dataset TIIQAD --version 1 --seed 2022
+```%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_TIIQAD_dataset/ --dataset TIIQAD --version 1 --seed 2022```
 
 ### Testing on a single image
 
