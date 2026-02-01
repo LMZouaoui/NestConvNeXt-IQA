@@ -71,17 +71,17 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 
 ### For Training and Testing
 Download the LWIR-IQA and/or the TIIQAD datasets.
-Open the file: " RunTrain.ipynb "
+Open the file: `RunTrain.ipynb`
 
-For the LWIR-IQA dataset, run
+#### For the LWIR-IQA dataset, run
 %run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_LWIR-IQA_dataset/ --dataset lwir_iqa --version 1 --seed 2022
 
-For the TIIQAD dataset, run
+##### For the TIIQAD dataset, run
 %run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_TIIQAD_dataset/ --dataset TIIQAD --version 1 --seed 2022
 
 ### Testing on a single image
 
-Open the file " RunTest_predict_one_image.ipynb" 
+Open the file `RunTest_predict_one_image.ipynb` 
 Set the path to the trained model. You may also use the provided pretrained models for LWIR-IQA and TIIQAD.
 Set the path to the image to be predicted.
 Run the notebook.
