@@ -74,10 +74,14 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 - Open the file: `RunTrain.ipynb`
 
 #### For the LWIR-IQA dataset, run:
-```%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_LWIR-IQA_dataset/ --dataset lwir_iqa --version 1 --seed 2022```
+```
+%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_LWIR-IQA_dataset/ --dataset lwir_iqa --version 1 --seed 2022
+```
 
 ##### For the TIIQAD dataset, run:
-```%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_TIIQAD_dataset/ --dataset TIIQAD --version 1 --seed 2022```
+```
+%run run.py --batch_size 40 --svpath '/path_where_to_save_results/' --epochs 20 --lr 2e-5 --gpunum 0 --datapath ./Path_to_TIIQAD_dataset/ --dataset TIIQAD --version 1 --seed 2022
+```
 
 ### Testing on a single image
 
