@@ -16,8 +16,8 @@ In this work, two LWIR datasets are used: LWIR-IQA and TIIQAD, which represent s
 
 To validate the performance of the proposed method, 16 state-of-the-art IQA methods were used for comparison, including traditional full-reference, deep learning full-reference, traditional no-reference, and deep learning no-reference 
 ### Traditional full-reference (TR-FR) metrics:
-1. - `VIF:`
-   [H. R. Sheikh and A. C. Bovik, “Image information and visual quality,” IEEE Trans. Image Process. vol. 15, no 2, p. 430-444, 2006, doi: 10.1109/TIP.2005.859378]
+1. `VIF:`
+   [H. R. Sheikh and A. C. Bovik, “Image information and visual quality,” IEEE Trans. Image Process. vol. 15, no 2, p. 430-444, 2006, doi: 10.1109/TIP.2005.859378](10.1109/TIP.2005.859378)
 
 2. IW SSIM
 3. IW PSNR
