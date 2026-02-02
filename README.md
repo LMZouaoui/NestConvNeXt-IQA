@@ -133,7 +133,7 @@ The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-
 #### Blur
 
 
-| Visual Sample | <img src="Results/images/IMG_10_BLU%20(2).bmp" width="265"> | <img src="Results/images/IMG_10_BLU%20(4).bmp" width="265"> |
+| Visual Sample | <img src="Results/images/IMG_10_BLU%20(2).bmp" width="250"> | <img src="Results/images/IMG_10_BLU%20(4).bmp" width="250"> |
 | :--- | :---: | :---: |
 | **Filename** | `IMG_10_BLU (2).bmp` | `IMG_10_BLU (4).bmp` |
 | **MOS** | 4.226 | 2.871 |
