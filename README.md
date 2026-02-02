@@ -8,8 +8,8 @@ Pytorch implementation of NestConvNeXt-IQA paper "No-Reference LWIR Image Qualit
 
 In this work, two LWIR datasets are used: `LWIR-IQA` and `TIIQAD`, which represent synthetically and authentically distorted IQA databases. Two evaluation setups are considered, corresponding to authentic and synthetic distortions. For the synthetic setup, both global and per-distortion-type evaluations are performed, including white noise, blurring, non-uniformity, JPEG, and JPEG2000 compression.
 
-1. The [LWIR-IQA](https://doi.org/10.2478/jee-2022-0011) image dataset used during the current study is available in the GitHub Repository: https://github.com/azedomar/LWIR_IQA_dataset. 
-2. The thermal dataset [TIIQAD](https://doi.org/10.1109/ICIP51287.2024.10648145) employed in this study is also publicly available on GitHub: https://github.com/cheunglaihip/TIIQAD.
+1. The [LWIR-IQA](https://doi.org/10.2478/jee-2022-0011) dataset consists of 500 images showcasing five critical synthetic distortions: Additive White Gaussian Noise (AWGN), blur (BLU), non-uniformity (NU), JPEG (JPG), and JPEG2000 (J2K) compression. The datastet is available in the GitHub Repository: https://github.com/azedomar/LWIR_IQA_dataset. 
+4. The thermal dataset [TIIQAD](https://doi.org/10.1109/ICIP51287.2024.10648145) dataset includes 1000 authentic distortions, offering a specialized benchmark for real-world quality assessment. This dataset is also publicly available on GitHub: https://github.com/cheunglaihip/TIIQAD.
 
 
 ## IQA algorithms
@@ -106,8 +106,7 @@ In addition, the `Examples.docx` file includes sample images from the `LWIR-IQA`
 ### Examples from LWIR-IQA and TIIQAD datasets
 The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-IQA and TIIQAD datasets.
 
-1) LWIR-IQA dataset (Synthetic Distortions)
-This dataset includes five types of synthetic distortions: white noise (AWGN), blur (BLU), non-uniformity (NU), JPEG (JPG), and JPEG2000 (J2K).
+1) **LWIR-IQA dataset (Synthetic Distortions)**
 
 #### Non-uniformity
 
@@ -155,8 +154,7 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 | **MOS** | 3.161 | 1.419 |
 | **NestConvNeXt-IQA** | **3.223** | **1.658** |
 
-2) TIIQAD dataset (authentic Distortions)
-This dataset includes 1000 authentic distortions.
+2) **TIIQAD dataset (authentic Distortions)**
 
 | Visual Sample | ![Sample 138](Results/images/138.jpg) | ![Sample 1508](Results/images/1508.jpg) | ![Sample 952](Results/images/952.jpg) |
 | :--- | :---: | :---: | :---: |
