@@ -139,16 +139,9 @@ The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-
 | **MOS** | 4.226 | 2.871 |
 | **NestConvNeXt-IQA** | **4.376** | **2.708** |
 
-
-| Visual Sample | ![BLU 2](Results/images/IMG_10_BLU%20(2).bmp) | ![BLU 4](Results/images/IMG_10_BLU%20(4).bmp) |
-| :--- | :---: | :---: |
-| **Filename** | `IMG_10_BLU (2).bmp` | `IMG_10_BLU (4).bmp` |
-| **MOS** | 4.226 | 2.871 |
-| **NestConvNeXt-IQA** | **4.376** | **2.708** |
-
 #### JPEG2000
 
-| Visual Sample | ![J2K 1](Results/images/IMG_07_J2K%20(1).bmp) | ![J2K 5](Results/images/IMG_07_J2K%20(5).bmp) |
+| Visual Sample | <img src="Results/images/IMG_07_J2K%20(1).bmp" width="255"> | <img src="Results/images/IMG_07_J2K%20(5).bmp" width="255"> |
 | :--- | :---: | :---: |
 | **Filename** | `IMG_07_J2K (1).bmp` | `IMG_07_J2K (5).bmp` |
 | **MOS** | 4.194 | 1.548 |
@@ -156,7 +149,7 @@ The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-
 
 #### JPEG Compression
 
-| Visual Sample | ![JPG 1](Results/images/IMG_18_JPG%20(1).bmp) | ![JPG 4](Results/images/IMG_18_JPG%20(4).bmp) |
+| Visual Sample | <img src="Results/images/IMG_18_JPG%20(1).bmp" width="255"> | <img src="Results/images/IMG_18_JPG%20(4).bmp" width="255"> |
 | :--- | :---: | :---: |
 | **Filename** | `IMG_18_JPG (1).bmp` | `IMG_18_JPG (4).bmp` |
 | **MOS** | 3.161 | 1.419 |
