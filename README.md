@@ -109,13 +109,18 @@ The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-
 1) LWIR-IQA dataset (Synthetic Distortions)
 This dataset includes five types of synthetic distortions: white noise (AWGN), blur (BLU), non-uniformity (NU), JPEG (JPG), and JPEG2000 (J2K).
 
-## Infrared Non-uniformity Assessment Results
-
-This section evaluates the performance of the **NestConvNeXt** model in predicting the quality of infrared images affected by non-uniformity (NU) noise. The scores are compared against the Ground Truth Mean Opinion Score (MOS).
+#### Non-uniformity
 
 | Metric | Sample 1 | Sample 2 | Sample 3 |
 | :--- | :---: | :---: | :---: |
 | **Visual Sample** | ![NU 1](Results/images/IMG_09_NU(1).bmp) | ![NU 2](Results/images/IMG_09_NU(2).bmp) | ![NU 4](Results/images/IMG_09_NU(4).bmp) |
 | **Filename** | `IMG_09_NU(1).bmp` | `IMG_09_NU(2).bmp` | `IMG_09_NU(4).bmp` |
+| **MOS** | 4.645 | 4.516 | 2.226 |
+| **NestConvNeXt** | **4.691** | **4.435** | **2.344** |
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![NU 1](Results/images/IMG_09_NU%20(1).bmp) | ![NU 2](Results/images/IMG_09_NU%20(2).bmp) | ![NU 4](Results/images/IMG_09_NU%20(4).bmp) |
+| **Filename** | `IMG_09_NU (1).bmp` | `IMG_09_NU (2).bmp` | `IMG_09_NU (4).bmp` |
 | **MOS** | 4.645 | 4.516 | 2.226 |
 | **NestConvNeXt** | **4.691** | **4.435** | **2.344** |
