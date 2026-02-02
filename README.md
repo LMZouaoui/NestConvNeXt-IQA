@@ -41,13 +41,13 @@ To validate the performance of the proposed method, 16 state-of-the-art IQA meth
 8. `BRISQUE:`
    [A. Mittal, A. K. Moorthy, and A. C. Bovik, “No-reference image quality assessment in the spatial domain,” IEEE Trans. Image Process. vol. 21, no. 12, pp. 4695–4708, 2012, doi: 10.1109/TIP.2012.2214050.](https://doi.org/10.1109/TIP.2012.2214050)
 
-9. `OG-IQA`
+9. `OG-IQA:`
    [L. Liu, Y. Hua, Q. Zhao, H. Huang, and A. C. Bovik, “Blind image quality assessment by relative gradient statistics and adaboosting neural network,” Signal Process. Image Commun. vol. 40, pp. 1–15, 2016, doi: 10.1016/j.image.2015.10.005.](https://doi.org/10.1016/j.image.2015.10.005)
 
-10. `GM-LOG`
+10. `GM-LOG:`
     [W. Xue, X. Mou, L. Zhang, A. C. Bovik, and X. Feng, “Blind image quality assessment using joint statistics of gradient magnitude and Laplacian features,” IEEE Trans. Image Process. vol. 23, no. 11, pp. 4850–4862, 2014, doi: 10.1109/TIP.2014.2355716.](https://doi.org/10.1109/TIP.2014.2355716)
 
-11. `GWH-GLBP`
+11. `GWH-GLBP:`
     [Q. Li, W. Lin, and Y. Fang, “No-reference quality assessment for multiply-distorted images in gradient domain,” IEEE Signal Process. Lett. vol. 23, no. 4, pp. 541–545, Apr. 2016, doi: 10.1109/LSP.2016.2537321.](https://doi.org/10.1109/LSP.2016.2537321)
 
 ### Deep learning no-reference (DL-NR) metrics:
