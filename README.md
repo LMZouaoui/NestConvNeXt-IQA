@@ -115,13 +115,13 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 | :--- | :---: | :---: | :---: |
 | **Filename** | `IMG_09_NU (1).bmp` | `IMG_09_NU (2).bmp` | `IMG_09_NU (4).bmp` |
 | **MOS** | 4.645 | 4.516 | 2.226 |
-| **NestConvNeXt** | **4.691** | **4.435** | **2.344** |
+| **NestConvNeXt-IQA** | **4.691** | **4.435** | **2.344** |
 
 | Visual Sample | ![NU 1](Results/images/IMG_20_NU%20(1).bmp) | ![NU 3](Results/images/IMG_20_NU%20(3).bmp) | ![NU 4](Results/images/IMG_20_NU%20(4).bmp) |
 | :--- | :---: | :---: | :---: |
 | **Filename** | `IMG_20_NU (1).bmp` | `IMG_20_NU (3).bmp` | `IMG_20_NU (4).bmp` |
 | **MOS** | 3.742 | 2.613 | 2.129 |
-| **NestConvNeXt** | **3.749** | **2.681** | **2.162** |
+| **NestConvNeXt-IQA** | **3.749** | **2.681** | **2.162** |
 
 #### White Noise (AWGN)
 
@@ -129,7 +129,7 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 | :--- | :---: | :---: | :---: |
 | **Filename** | `IMG_12_AWGN (1).bmp` | `IMG_12_AWGN (2).bmp` | `IMG_12_AWGN (5).bmp` |
 | **MOS** | 4.677 | 4.484 | 2.290 |
-| **NestConvNeXt** | **4.442** | **4.416** | **2.618** |
+| **NestConvNeXt-IQA** | **4.442** | **4.416** | **2.618** |
 
 #### Blur
 
@@ -137,7 +137,7 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 | :--- | :---: | :---: |
 | **Filename** | `IMG_10_BLU (2).bmp` | `IMG_10_BLU (4).bmp` |
 | **MOS** | 4.226 | 2.871 |
-| **NestConvNeXt** | **4.376** | **2.708** |
+| **NestConvNeXt-IQA** | **4.376** | **2.708** |
 
 #### JPEG2000
 
@@ -145,7 +145,7 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 | :--- | :---: | :---: |
 | **Filename** | `IMG_07_J2K (1).bmp` | `IMG_07_J2K (5).bmp` |
 | **MOS** | 4.194 | 1.548 |
-| **NestConvNeXt** | **4.205** | **1.635** |
+| **NestConvNeXt-IQA** | **4.205** | **1.635** |
 
 #### JPEG Compression
 
@@ -153,36 +153,37 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 | :--- | :---: | :---: |
 | **Filename** | `IMG_18_JPG (1).bmp` | `IMG_18_JPG (4).bmp` |
 | **MOS** | 3.161 | 1.419 |
-| **NestConvNeXt** | **3.223** | **1.658** |
+| **NestConvNeXt-IQA** | **3.223** | **1.658** |
 
 2) TIIQAD dataset (authentic Distortions)
+This dataset includes 1000 authentic distortions.
 
 | Visual Sample | ![Sample 138](Results/images/138.jpg) | ![Sample 1508](Results/images/1508.jpg) | ![Sample 952](Results/images/952.jpg) |
 | :--- | :---: | :---: | :---: |
 | **Filename** | `138.jpg` | `1508.jpg` | `952.jpg` |
 | **MOS** | 2.637 | 2.837 | 2.947 |
-| **NestConvNeXt** | **2.677** | **2.923** | **2.913** |
+| **NestConvNeXt-IQA** | **2.677** | **2.923** | **2.913** |
 
 
 | Visual Sample | ![Sample 1445](Results/images/1445.jpg) | ![Sample 1022](Results/images/1022.jpg) | ![Sample 1002](Results/images/1002.jpg) |
 | :--- | :---: | :---: | :---: |
 | **Filename** | `1445.jpg` | `1022.jpg` | `1002.jpg` |
 | **MOS** | 3.034 | 3.094 | 3.102 |
-| **NestConvNeXt** | **3.005** | **3.064** | **3.098** |
+| **NestConvNeXt-IQA** | **3.005** | **3.064** | **3.098** |
 
 
 | Visual Sample | ![Sample 248](Results/images/248.jpg) | ![Sample 253](Results/images/253.jpg) | ![Sample 413](Results/images/413.jpg) |
 | :--- | :---: | :---: | :---: |
 | **Filename** | `248.jpg` | `253.jpg` | `413.jpg` |
 | **MOS** | 2.516 | 2.898 | 3.449 |
-| **NestConvNeXt** | **2.614** | **2.876** | **3.254** |
+| **NestConvNeXt-IQA** | **2.614** | **2.876** | **3.254** |
 
 
 | Visual Sample | ![Sample 450](Results/images/450.jpg) | ![Sample 2248](Results/images/2248.jpg) | ![Sample 1039](Results/images/1039.jpg) |
 | :--- | :---: | :---: | :---: |
 | **Filename** | `450.jpg` | `2248.jpg` | `1039.jpg` |
 | **MOS** | 2.514 | 3.034 | 3.111 |
-| **NestConvNeXt** | **2.750** | **2.942** | **3.053** |
+| **NestConvNeXt-IQA** | **2.750** | **2.942** | **3.053** |
 
 | Visual Sample | ![Sample 421](Results/images/421.jpg) | ![Sample 224](Results/images/224.jpg) | ![Sample 2289](Results/images/2289.jpg) |
 | :--- | :---: | :---: | :---: |
