@@ -125,3 +125,80 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 | **Filename** | `IMG_20_NU (1).bmp` | `IMG_20_NU (3).bmp` | `IMG_20_NU (4).bmp` |
 | **MOS** | 3.742 | 2.613 | 2.129 |
 | **NestConvNeXt** | **3.749** | **2.681** | **2.162** |
+
+#### White Noise (AWGN)
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![AWGN 1](Results/images/IMG_12_AWGN%20(1).bmp) | ![AWGN 2](Results/images/IMG_12_AWGN%20(2).bmp) | ![AWGN 5](Results/images/IMG_12_AWGN%20(5).bmp) |
+| **Filename** | `IMG_12_AWGN (1).bmp` | `IMG_12_AWGN (2).bmp` | `IMG_12_AWGN (5).bmp` |
+| **MOS** | 4.677 | 4.484 | 2.290 |
+| **NestConvNeXt** | **4.442** | **4.416** | **2.618** |
+
+#### Blur
+
+| Metric | Sample 1 | Sample 2 |
+| :--- | :---: | :---: |
+| **Visual Sample** | ![BLU 2](Results/images/IMG_10_BLU%20(2).bmp) | ![BLU 4](Results/images/IMG_10_BLU%20(4).bmp) |
+| **Filename** | `IMG_10_BLU (2).bmp` | `IMG_10_BLU (4).bmp` |
+| **MOS** | 4.226 | 2.871 |
+| **NestConvNeXt** | **4.376** | **2.708** |
+
+#### JPEG2000
+
+| Metric | Sample 1 | Sample 2 |
+| :--- | :---: | :---: |
+| **Visual Sample** | ![J2K 1](Results/images/IMG_07_J2K%20(1).bmp) | ![J2K 5](Results/images/IMG_07_J2K%20(5).bmp) |
+| **Filename** | `IMG_07_J2K (1).bmp` | `IMG_07_J2K (5).bmp` |
+| **MOS** | 4.194 | 1.548 |
+| **NestConvNeXt** | **4.205** | **1.635** |
+
+#### JPEG Compression
+
+| Metric | Sample 1 | Sample 2 |
+| :--- | :---: | :---: |
+| **Visual Sample** | ![JPG 1](Results/images/IMG_18_JPG%20(1).bmp) | ![JPG 4](Results/images/IMG_18_JPG%20(4).bmp) |
+| **Filename** | `IMG_18_JPG (1).bmp` | `IMG_18_JPG (4).bmp` |
+| **MOS** | 3.161 | 1.419 |
+| **NestConvNeXt** | **3.223** | **1.658** |
+
+2) TIIQAD dataset (authentic Distortions)
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![Sample 138](Results/images/138.jpg) | ![Sample 1508](Results/images/1508.jpg) | ![Sample 952](Results/images/952.jpg) |
+| **Filename** | `138.jpg` | `1508.jpg` | `952.jpg` |
+| **MOS** | 2.637 | 2.837 | 2.947 |
+| **NestConvNeXt** | **2.677** | **2.923** | **2.913** |
+
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![Sample 1445](Results/images/1445.jpg) | ![Sample 1022](Results/images/1022.jpg) | ![Sample 1002](Results/images/1002.jpg) |
+| **Filename** | `1445.jpg` | `1022.jpg` | `1002.jpg` |
+| **MOS** | 3.034 | 3.094 | 3.102 |
+| **NestConvNeXt** | **3.005** | **3.064** | **3.098** |
+
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![Sample 248](Results/images/248.jpg) | ![Sample 253](Results/images/253.jpg) | ![Sample 413](Results/images/413.jpg) |
+| **Filename** | `248.jpg` | `253.jpg` | `413.jpg` |
+| **MOS** | 2.516 | 2.898 | 3.449 |
+| **NestConvNeXt** | **2.614** | **2.876** | **3.254** |
+
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![Sample 450](Results/images/450.jpg) | ![Sample 2248](Results/images/2248.jpg) | ![Sample 1039](Results/images/1039.jpg) |
+| **Filename** | `450.jpg` | `2248.jpg` | `1039.jpg` |
+| **MOS** | 2.514 | 3.034 | 3.111 |
+| **NestConvNeXt** | **2.750** | **2.942** | **3.053** |
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![Sample 421](Results/images/421.jpg) | ![Sample 224](Results/images/224.jpg) | ![Sample 2289](Results/images/2289.jpg) |
+| **Filename** | `421.jpg` | `224.jpg` | `2289.jpg` |
+| **MOS** | 2.766 | 2.903 | 3.034 |
+| **NestConvNeXt** | **2.768** | **2.800** | **2.948** |
+
