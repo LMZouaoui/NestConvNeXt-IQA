@@ -109,10 +109,13 @@ The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-
 1) LWIR-IQA dataset (Synthetic Distortions)
 This dataset includes five types of synthetic distortions: white noise (AWGN), blur (BLU), non-uniformity (NU), JPEG (JPG), and JPEG2000 (J2K).
 
-Non-uniformity (NU) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="Results/images/IMG_09_NU (1).bmp" width="200"> | IMG_09_NU (1).bmp | 4.645 | 4.691 | | <img src="Results/images/IMG_09_NU (2).bmp" width="200"> | IMG_09_NU (2).bmp | 4.516 | 4.435 | | <img src="Results/images/IMG_09_NU (4).bmp" width="200"> | IMG_09_NU (4).bmp | 2.226 | 2.344 | | <img src="Results/images/IMG_20_NU (1).bmp" width="200"> | IMG_20_NU (1).bmp | 3.742 | 3.749 | | <img src="Results/images/IMG_20_NU (3).bmp" width="200"> | IMG_20_NU (3).bmp | 2.613 | 2.681 | | <img src="Results/images/IMG_20_NU (4).bmp" width="200"> | IMG_20_NU (4).bmp | 2.129 | 2.162 |
+## Infrared Non-uniformity Assessment Results
 
-White Noise (AWGN) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="Results/images/IMG_12_AWGN (1).bmp" width="200"> | IMG_12_AWGN (1).bmp | 4.677 | 4.442 | | <img src="Results/images/IMG_12_AWGN (2).bmp" width="200"> | IMG_12_AWGN (2).bmp | 4.484 | 4.416 | | <img src="Results/images/IMG_12_AWGN (5).bmp" width="200"> | IMG_12_AWGN (5).bmp | 2.290 | 2.618 |
+This section evaluates the performance of the **NestConvNeXt** model in predicting the quality of infrared images affected by non-uniformity (NU) noise. The scores are compared against the Ground Truth Mean Opinion Score (MOS).
 
-Blur (BLU) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="Results/images/IMG_10_BLU (2).bmp" width="200"> | IMG_10_BLU (2).bmp | 4.226 | 4.376 | | <img src="Results/images/IMG_10_BLU (4).bmp" width="200"> | IMG_10_BLU (4).bmp | 2.871 | 2.708 |
-
-Compression (JPEG2000 & JPEG) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="Results/images/IMG_07_J2K (1).bmp" width="200"> | IMG_07_J2K (1).bmp | 4.194 | 4.205 | | <img src="Results/images/IMG_07_J2K (5).bmp" width="200"> | IMG_07_J2K (5).bmp | 1.548 | 1.635 | | <img src="Results/images/IMG_18_JPG (1).bmp" width="200"> | IMG_18_JPG (1).bmp | 3.161 | 3.223 | | <img src="Results/images/IMG_18_JPG (4).bmp" width="200"> | IMG_18_JPG (4).bmp | 1.419 | 1.658 |
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![NU 1](Results/images/IMG_09_NU(1).bmp) | ![NU 2](Results/images/IMG_09_NU(2).bmp) | ![NU 4](Results/images/IMG_09_NU(4).bmp) |
+| **Filename** | `IMG_09_NU(1).bmp` | `IMG_09_NU(2).bmp` | `IMG_09_NU(4).bmp` |
+| **MOS** | 4.645 | 4.516 | 2.226 |
+| **NestConvNeXt** | **4.691** | **4.435** | **2.344** |
