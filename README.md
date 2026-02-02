@@ -103,3 +103,16 @@ This folder contains spider diagrams summarizing the performance comparison unde
 In addition, the `Examples.docx` file includes sample images from the `LWIR-IQA` and `TIIQAD` datasets. For each example, the corresponding subjective score (MOS) and the objective score predicted by `NestConvNeXt-IQA` are provided.
 
 
+### Examples from LWIR-IQA and TIIQAD datasets
+The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-IQA and TIIQAD datasets.
+
+1) LWIR-IQA dataset (Synthetic Distortions)
+This dataset includes five types of synthetic distortions: white noise (AWGN), blur (BLU), non-uniformity (NU), JPEG (JPG), and JPEG2000 (J2K).
+
+Non-uniformity (NU) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="results/images/IMG_09_NU (1).bmp" width="200"> | IMG_09_NU (1).bmp | 4.645 | 4.691 | | <img src="results/images/IMG_09_NU (2).bmp" width="200"> | IMG_09_NU (2).bmp | 4.516 | 4.435 | | <img src="results/images/IMG_09_NU (4).bmp" width="200"> | IMG_09_NU (4).bmp | 2.226 | 2.344 | | <img src="results/images/IMG_20_NU (1).bmp" width="200"> | IMG_20_NU (1).bmp | 3.742 | 3.749 | | <img src="results/images/IMG_20_NU (3).bmp" width="200"> | IMG_20_NU (3).bmp | 2.613 | 2.681 | | <img src="results/images/IMG_20_NU (4).bmp" width="200"> | IMG_20_NU (4).bmp | 2.129 | 2.162 |
+
+White Noise (AWGN) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="results/images/IMG_12_AWGN (1).bmp" width="200"> | IMG_12_AWGN (1).bmp | 4.677 | 4.442 | | <img src="results/images/IMG_12_AWGN (2).bmp" width="200"> | IMG_12_AWGN (2).bmp | 4.484 | 4.416 | | <img src="results/images/IMG_12_AWGN (5).bmp" width="200"> | IMG_12_AWGN (5).bmp | 2.290 | 2.618 |
+
+Blur (BLU) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="results/images/IMG_10_BLU (2).bmp" width="200"> | IMG_10_BLU (2).bmp | 4.226 | 4.376 | | <img src="results/images/IMG_10_BLU (4).bmp" width="200"> | IMG_10_BLU (4).bmp | 2.871 | 2.708 |
+
+Compression (JPEG2000 & JPEG) | Image | Name | MOS | NestConvNeXt | | :---: | :--- | :---: | :---: | | <img src="results/images/IMG_07_J2K (1).bmp" width="200"> | IMG_07_J2K (1).bmp | 4.194 | 4.205 | | <img src="results/images/IMG_07_J2K (5).bmp" width="200"> | IMG_07_J2K (5).bmp | 1.548 | 1.635 | | <img src="results/images/IMG_18_JPG (1).bmp" width="200"> | IMG_18_JPG (1).bmp | 3.161 | 3.223 | | <img src="results/images/IMG_18_JPG (4).bmp" width="200"> | IMG_18_JPG (4).bmp | 1.419 | 1.658 |
