@@ -113,14 +113,15 @@ This dataset includes five types of synthetic distortions: white noise (AWGN), b
 
 | Metric | Sample 1 | Sample 2 | Sample 3 |
 | :--- | :---: | :---: | :---: |
-| **Visual Sample** | ![NU 1](Results/images/IMG_09_NU(1).bmp) | ![NU 2](Results/images/IMG_09_NU(2).bmp) | ![NU 4](Results/images/IMG_09_NU(4).bmp) |
-| **Filename** | `IMG_09_NU(1).bmp` | `IMG_09_NU(2).bmp` | `IMG_09_NU(4).bmp` |
-| **MOS** | 4.645 | 4.516 | 2.226 |
-| **NestConvNeXt** | **4.691** | **4.435** | **2.344** |
-
-| Metric | Sample 1 | Sample 2 | Sample 3 |
-| :--- | :---: | :---: | :---: |
 | **Visual Sample** | ![NU 1](Results/images/IMG_09_NU%20(1).bmp) | ![NU 2](Results/images/IMG_09_NU%20(2).bmp) | ![NU 4](Results/images/IMG_09_NU%20(4).bmp) |
 | **Filename** | `IMG_09_NU (1).bmp` | `IMG_09_NU (2).bmp` | `IMG_09_NU (4).bmp` |
 | **MOS** | 4.645 | 4.516 | 2.226 |
 | **NestConvNeXt** | **4.691** | **4.435** | **2.344** |
+
+
+| Metric | Sample 1 | Sample 2 | Sample 3 |
+| :--- | :---: | :---: | :---: |
+| **Visual Sample** | ![NU 1](Results/images/IMG_20_NU%20(1).bmp) | ![NU 3](Results/images/IMG_20_NU%20(3).bmp) | ![NU 4](Results/images/IMG_20_NU%20(4).bmp) |
+| **Filename** | `IMG_20_NU (1).bmp` | `IMG_20_NU (3).bmp` | `IMG_20_NU (4).bmp` |
+| **MOS** | 3.742 | 2.613 | 2.129 |
+| **NestConvNeXt** | **3.749** | **2.681** | **2.162** |
