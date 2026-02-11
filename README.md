@@ -102,7 +102,9 @@ This folder contains spider diagrams summarizing the performance comparison unde
    
 In addition, the `Examples.docx` file includes sample images from the `LWIR-IQA` and `TIIQAD` datasets. For each example, the corresponding subjective score (MOS) and the objective score predicted by `NestConvNeXt-IQA` are provided.
 
-### Performance comparison summary per-distortion-type
+### Performance comparison summary per distortion type
+
+The spider diagrams summarize the evaluation performance of all methods combined and of three method categories: FR, TR-NR, and DL-NR. The comparison spans several degradation types and highlights the strengths and limitations of each method within its respective category. The diagrams are based on the mean SROCC and PLCC values.
 
 1) **All IQA algorithms**
 
