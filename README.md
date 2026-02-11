@@ -107,25 +107,25 @@ In addition, the `Examples.docx` file includes sample images from the `LWIR-IQA`
 1) **All IQA algorithms**
 
 <p align="center">
-  <img src="Results/All_methods1.png" width="400" alt="Sample Image">
+  <img src="Results/All_methods1.png" width="600" alt="Sample Image">
 </p>
 
 2) **Full-reference (FR) algorithms**
 
 <p align="center">
-  <img src="Results/FR_methods.png" width="400" alt="Sample Image">
+  <img src="Results/FR_methods.png" width="600" alt="Sample Image">
 </p>
 
 3) **Traditional no-reference (TR-NR) algorithms**
 
 <p align="center">
-  <img src="Results/TR_NR_methods.png" width="400" alt="Sample Image">
+  <img src="Results/TR_NR_methods.png" width="600" alt="Sample Image">
 </p>
 
 4) **Deep learning-based no-reference (DL-NR) algorithms**
 
 <p align="center">
-  <img src="Results/DL_NR_methods.png" width="400" alt="Sample Image">
+  <img src="Results/DL_NR_methods.png" width="600" alt="Sample Image">
 </p>
 
 ### Examples from LWIR-IQA and TIIQAD datasets
