@@ -102,6 +102,31 @@ This folder contains spider diagrams summarizing the performance comparison unde
    
 In addition, the `Examples.docx` file includes sample images from the `LWIR-IQA` and `TIIQAD` datasets. For each example, the corresponding subjective score (MOS) and the objective score predicted by `NestConvNeXt-IQA` are provided.
 
+### Performance comparison summary per-distortion-type
+
+1) **All IQA algorithms**
+
+<p align="center">
+  <img src="Results/All_methods1.png" width="400" alt="Sample Image">
+</p>
+
+2) **Full-reference (FR) algorithms**
+
+<p align="center">
+  <img src="Results/FR_methods.png" width="400" alt="Sample Image">
+</p>
+
+3) **Traditional no-reference (TR-NR) algorithms**
+
+<p align="center">
+  <img src="Results/TR_NR_methods.png" width="400" alt="Sample Image">
+</p>
+
+4) **Deep learning-based no-reference (DL-NR) algorithms**
+
+<p align="center">
+  <img src="Results/DL_NR_methods.png" width="400" alt="Sample Image">
+</p>
 
 ### Examples from LWIR-IQA and TIIQAD datasets
 The following images illustrate the performance of NestConvNeXt-IQA on the LWIR-IQA and TIIQAD datasets.
