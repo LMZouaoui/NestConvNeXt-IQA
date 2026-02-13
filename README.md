@@ -8,7 +8,7 @@ Pytorch implementation of NestConvNeXt-IQA paper "No-Reference LWIR Image Qualit
 
 In this work, two LWIR datasets are used: `LWIR-IQA` and `TIIQAD`:
 
-1. The [LWIR-IQA](https://doi.org/10.2478/jee-2022-0011) dataset consists of 500 images showcasing five critical synthetic distortions: Additive White Gaussian Noise (AWGN), blur (BLU), non-uniformity (NU), JPEG (JPG), and JPEG2000 (J2K) compression. The datastet is available in the GitHub Repository: https://github.com/azedomar/LWIR_IQA_dataset. 
+1. The [LWIR-IQA](https://doi.org/10.2478/jee-2022-0011) dataset consists of 500 images showcasing five critical synthetic distortions: Additive White Gaussian Noise (AWGN), blur (BLU), non-uniformity (NU), JPEG (JPG), and JPEG2000 (J2K) compression. The dataset is available in the GitHub Repository: https://github.com/azedomar/LWIR_IQA_dataset. 
 4. The thermal dataset [TIIQAD](https://doi.org/10.1109/ICIP51287.2024.10648145) dataset includes 1000 authentic distortions, offering a specialized benchmark for real-world quality assessment. This dataset is also publicly available on GitHub: https://github.com/cheunglaihip/TIIQAD.
 
 
