@@ -4,13 +4,14 @@ This repository provides a PyTorch implementation of a no-reference long-wavelen
 
 Authors:
 
+
 Mohammed Zouaoui Laidouni <sup>1</sup>, Touati Adli <sup>1</sup>, Boban Bondžulić <sup>1</sup>, Vladimir Petrović <sup>2</sup>, Dimitrije Bujaković <sup>1</sup>, Milenko Andrić <sup>1</sup>, Boban Pavlović <sup>1</sup>
 
 Affiliation:    
 
-- <sup>1</sup> Military Academy, University of Defence in Belgrade
+<sup>1</sup> Military Academy, University of Defence in Belgrade
 
-- <sup>2</sup> Faculty of Technical Sciences, University of Novi Sad
+<sup>2</sup> Faculty of Technical Sciences, University of Novi Sad
 
 ## Datasets
 
