@@ -2,14 +2,15 @@
 
 This repository provides a PyTorch implementation of a no-reference long-wavelength infrared (LWIR) image quality assessment. The implementation corresponds to the paper “No-Reference LWIR Image Quality Assessment via NestConvNeXt and Lightweight Dual Attention Networks”, which has been submitted for publication to IEEE Transactions on Circuits and Systems for Video Technology.
 
-Authors: 
+Authors:
+
 Mohammed Zouaoui Laidouni <sup>1</sup>, Touati Adli <sup>1</sup>, Boban Bondžulić <sup>1</sup>, Vladimir Petrović <sup>2</sup>, Dimitrije Bujaković <sup>1</sup>, Milenko Andrić <sup>1</sup>, Boban Pavlović <sup>1</sup>
 
 Affiliation:    
 
-                - <sup>1</sup> Military Academy, University of Defence in Belgrade
+- <sup>1</sup> Military Academy, University of Defence in Belgrade
 
-                - <sup>2</sup> Faculty of Technical Sciences, University of Novi Sad
+- <sup>2</sup> Faculty of Technical Sciences, University of Novi Sad
 
 ## Datasets
 
