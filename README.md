@@ -1,6 +1,6 @@
 # NestConvNeXt-IQA
 
-This repository provides a PyTorch implementation of a no-reference long-wavelength infrared (LWIR) image quality assessment. The implementation corresponds to the paper “**No-Reference LWIR Image Quality Assessment via NestConvNeXt and Lightweight Dual Attention Networks**”, which has been submitted for publication to IEEE Transactions on Circuits and Systems for Video Technology.
+This repository provides a PyTorch implementation of a no-reference long-wavelength infrared (LWIR) image quality assessment. The implementation corresponds to the paper “**No-Reference LWIR Image Quality Assessment via NestConvNeXt and Lightweight Dual Attention Networks**”.
 
 
 **Authors:**
